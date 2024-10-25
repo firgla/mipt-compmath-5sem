@@ -17,7 +17,6 @@ class NewtonInterpolator
     std::array<yType, N> diff;
 
     public:
-
     NewtonInterpolator(const std::array<xType, N> &points, const std::array<yType, N>& values) noexcept
     : func_points{points}, 
     diff(values)
