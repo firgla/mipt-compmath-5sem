@@ -22,7 +22,7 @@ struct GaussianKvadrature
 template <>
 struct GaussianKvadrature<2>
 {
-    static constexpr std::array<double, 2> points = {-0.57735, 0.57735} , weights = {1, 1};
+    static constexpr std::array<double, 2> points = {-0.5773, 0.5773} , weights = {1, 1};
 };
 
 template <>
